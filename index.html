@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabor a colombia</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Nuestro archivo CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Menú de Navegación -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-utensils"></i> Sabor a Colombia
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ofertas">Ofertas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#galeria">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección Hero (Inicio) -->
+    <header id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Descubre la Auténtica Comida Colombiana!</h1>
+            <p>Sabores tradicionales que enamoran el paladar</p>
+            <a href="#ofertas" class="btn btn-ofertas btn-lg">Ver Ofertas</a>
+        </div>
+    </header>
+
+    <!-- Sección Ofertas -->
+    <section id="ofertas" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Nuestras Ofertas Especiales</h2>
+            <div class="row">
+                <!-- Oferta 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="https://cdn.colombia.com/gastronomia/2011/08/02/bandeja-paisa-1616.gif" class="card-img-top" alt="Bandeja Paisa">
+                        <div class="card-body">
+                            <h5 class="card-title">Bandeja Paisa</h5>
+                            <p class="card-text">El plato más representativo de Colombia con un 20% de descuento.</p>
+                            <p class="card-text">Frijoles-Huevo-Chorizo-Chicharrón-Aguacate-Arroz-Platano-Morcilla</p>
+                            <p class="price"><del>$25.000</del> <span>$20.000</span></p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#contacto" class="btn btn-pedir">Pedir Ahora</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Oferta 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="https://www.recetavenezolana.com/wp-content/uploads/2019/03/RFB-2003-4-arepademaizprecocido.jpg" class="card-img-top" alt="arepas">
+                        <div class="card-body">
+                            <h5 class="card-title">Docena De Arepas Colombianas</h5>
+                            <p class="card-text">Promoción x12 de arepas rellenas de queso</p>
+                            <p class="price"><del>$18.000</del> <span>$12.000 c/u</span></p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#contacto" class="btn btn-pedir">Pedir Ahora</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Oferta 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="https://cdn.colombia.com/gastronomia/2011/07/28/sancocho-de-cola-1650.gif" class="card-img-top" alt="Sancocho">
+                        <div class="card-body">
+                            <h5 class="card-title">Sancocho Antioqueño</h5>
+                            <p class="card-text">La sopa mas tradicional de los colombianos</p>
+                            <p class="price"><del>$13.000</del> <span>$9.000</span></p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#contacto" class="btn btn-pedir">Pedir Ahora</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Galería -->
+    <section id="galeria" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Galería de Nuestros Platos</h2>
+            <div class="row g-3">
+                <div class="col-md-4 col-6">
+                    <img src="https://popmenucloud.com/cdn-cgi/image/width=1200,height=630,format=auto,fit=cover/sqbhvkor/e1a2dfb7-8dd1-4218-8a34-acfee78bed85.jpg" class="img-fluid gallery-img" alt="Bandeja Paisa">
+                </div>
+                <div class="col-md-4 col-6">
+                    <img src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/2WM7IURUHJBMDCWRVGDJ2NGK6Q.jpeg" class="img-fluid gallery-img" alt="empanadas">
+                </div>
+                <div class="col-md-4 col-6">
+                    <img src="https://popmenucloud.com/cdn-cgi/image/width=1920,height=1920,format=auto,fit=scale-down/sqbhvkor/b8088792-f149-4830-99dd-253975eaa45a.jpg" class="img-fluid gallery-img" alt="Picada">
+                </div>
+                <div class="col-md-4 col-6">
+                    <img src="https://www.laylita.com/recetas/wp-content/uploads/2022/08/Arepas-colombianas-de-queso.jpg" class="img-fluid gallery-img" alt="Arepas">
+                </div>
+                <div class="col-md-4 col-6">
+                    <img src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/WVRCP5K2JRDNDNO5Q4HMESICN4.jpg" class="img-fluid gallery-img" alt="Lechona">
+                </div>
+                <div class="col-md-4 col-6">
+                    <img src="https://uploads.vibra.co/1/2021/01/como-hacer-arroz-con-coco-5.png" class="img-fluid gallery-img" alt="Arroz con Coco">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contacto" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Contáctanos</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <h3><i class="fas fa-map-marker-alt"></i> Dirección</h3>
+                    <p>Calle 123 #45-67, Los Angeles, Chile</p>
+                    
+                    <h3><i class="fas fa-phone"></i> Teléfono</h3>
+                    <p>+56 923 456 7890</p>
+                    
+                    <h3><i class="fas fa-envelope"></i> Email</h3>
+                    <p>saborescolombia@gmail.com</p>
+                </div>
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Nombre" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="5" placeholder="Tu mensaje" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-enviar">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>&copy; 2025 Sabores de Colombia. Todos los derechos reservados.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#">971088193<i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
