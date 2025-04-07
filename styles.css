@@ -9,6 +9,16 @@ body {
 nav.navbar{
     background-color: #8b3d3d;
 }
+/* Estilos del logo */
+.navbar-logo{
+    height: 40px;
+    width: auto;
+}
+@media (max-width: 768px) {
+    .navbar-logo {
+        height: 30px;
+    }
+}
 /* color btnes */
 .btn-pedir{
     background-color: #eca200;
@@ -52,11 +62,11 @@ nav.navbar{
 }
 /* Hero Section */
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), 
                 url('https://img.freepik.com/foto-gratis/marco-comida-circular-plano-laico_23-2148708223.jpg?semt=ais_hybrid');
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: 642px;
     display: flex;
     align-items: center;
     color: white;
@@ -69,7 +79,7 @@ nav.navbar{
 }
 .hero h1 {
     color: #ff8800;
-    font-size: 4rem;
+    font-size: 67px;
     margin-bottom: 20px;
 }
 .hero p {
